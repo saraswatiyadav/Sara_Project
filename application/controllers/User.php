@@ -17,7 +17,7 @@ class User extends CI_Controller {
 
 	public function index()
 	{ 
-		echo "Innctech Solution Team..." ;
+		echo "hello Innctech Solution Team..." ;
 		//$this->load->view('welcome_message');
 		$this->load->view('user_view',array('error'=> ''));
 	}
